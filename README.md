@@ -85,16 +85,16 @@ keytool -genkey -v -keystore ~/.android/debug.keystore -storepass android -alias
 
 ## Menu Options Explained
 
-- **[1] Build Android Payload (APK):**
+- **Build Android Payload (APK):**
     - Creates a Meterpreter APK using msfvenom with your provided LHOST and LPORT.
-- **[2] Start Metasploit Listener:**
+- **Start Metasploit Listener:**
     - Launches a Metasploit multi/handler set to catch your reverse shell connection.
-- **[3] Sign APK:**
+- **Sign APK:**
     - Signs an APK using the debug keystore so it can be installed on Android devices.
-- **[4] Patch APK for Visible UI:**
+- **Patch APK for Visible UI:**
     - Rebuilds a Meterpreter APK to include a visible Activity, required for Android 12/13/14/15 features like webcam and screenshots to work.
     - This is what makes the APK compatible with Android 15.
-- **[5] Show Help & Exit:**
+- **Show Help & Exit:**
     - Displays help and exits the tool.
 
 ---
