@@ -1,6 +1,6 @@
-# AndroidRAT Builder
+# Android-RAT
 
-**AndroidRAT Builder** is an educational tool for generating, patching, and managing Android Meterpreter payloads, with extended compatibility for Android 15. This project allows you to easily create, patch (add a visible UI for modern Android versions), sign, and deploy Android Meterpreter APK payloads, as well as launch a Metasploit handler — all from a simple Python command-line menu.
+**Android-RAT** is an educational tool for generating, patching, and managing Android Meterpreter payloads, with extended compatibility for Android 15. This project allows you to easily create, patch (add a visible UI for modern Android versions), sign, and deploy Android Meterpreter APK payloads, as well as launch a Metasploit handler — all from a simple Python command-line menu.
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## What is this?
 
-- **AndroidRAT Builder** simplifies the process of generating Android Meterpreter payloads, patching them for compatibility with the latest Android versions (including Android 15), and signing them for installation.
+- **Android-RAT** simplifies the process of generating Android Meterpreter payloads, patching them for compatibility with the latest Android versions (including Android 15), and signing them for installation.
 - It provides an interactive menu to guide you through building, patching, signing, and deploying payloads, as well as starting a Metasploit handler to receive connections.
 
 ---
